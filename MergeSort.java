@@ -1,8 +1,12 @@
 /**
-Date Created: 05/26/2020:
-Author: Parvez Ahamad Shaik
-Time Complexity: O(n*logn)
+Date Created:     05/26/2020:
+Author:           Parvez Ahamad Shaik
+Time Complexity:  O(n*logn)
 Space Complexity: O(n*logn)
+Approach:         Divide & Conquer
+Used:             Traditionally used in tapes to perform external merge sort.
+                  when FILE_SIZE > RAM SIZE, we can sort it using merge sort
+                  by dividing file into partitions. 
 **/
 
 import java.util.*;
