@@ -12,17 +12,20 @@ Online:           Yes
 
 import java.util.*;
 
-class Program {
- public static int[] insertionSort(int[] arr) {
-  for (int i = 1; i < arr.length; i++) {
-   int key = arr[i]; // element to be sorted exactly in its position
-   int j = i - 1; // lastly sorted element position
-   while (j >= 0 && key < arr[j]) {
-    arr[j + 1] = arr[j--];
-   }
-   arr[j + 1] = key;
+class Program 
+{
+     public static int[] insertionSort(int[] arr) 
+     {
+          for (int i = 1; i < arr.length; i++) 
+          {
+               int key = arr[i]; // element to be sorted exactly in its position
+               int j = i - 1; // lastly sorted element position
 
-  }
-  return arr;
- }
+               while (j >= 0 && key < arr[j]) {
+                    arr[j + 1] = arr[j--];
+               }
+               arr[j + 1] = key;
+          }
+          return arr;
+     }
 }
