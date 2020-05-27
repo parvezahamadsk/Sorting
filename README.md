@@ -1,3 +1,22 @@
+
+### Markdown
+```markdown
+ public static int[] insertionSort(int[] arr) 
+     {
+          for (int i = 1; i < arr.length; i++) 
+          {
+               int key = arr[i]; // element to be sorted exactly in its position
+               int j = i - 1; // lastly sorted element position
+
+               while (j >= 0 && key < arr[j]) {
+                    arr[j + 1] = arr[j--];
+               }
+               arr[j + 1] = key;
+          }
+          return arr;
+     }
+     
+---
 ### Insertion Sort ###
 
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
@@ -11,6 +30,8 @@ inserting it in appropriate location in the sorted array.
 * Compare key with each element in sorted array (from Position J to 0)
 * At each iteration one element in unsorted array will be exactly in its position.
 * At the end of Iteration, all elements are sorted
+
+
 
 #### Stability ####
 Sort repeated elements in same order as they present in the input
