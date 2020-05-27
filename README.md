@@ -17,7 +17,7 @@
      }
      
 ---
-### Markdown
+
 Insertion Sort
 
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
@@ -25,10 +25,10 @@ Insertion sort is a simple sorting algorithm that works the way we sort playing 
 It is called Insertion sort because we are picking an element from unsorted array and 
 inserting it in appropriate location in the sorted array.
 
-* If we have one element,its exactly in its position and it is sorted by default.
-* Take first element from unsorted array (key) and compare it with the last element of sorted array.
-* 'Key' holds first element of unsorted array, 'J' holds position of lastly sorted element.
-* Compare key with each element in sorted array (from Position J to 0)
-* At each iteration one element in unsorted array will be exactly in its position.
-* At the end of Iteration, all elements are sorted
+1 If we have one element,its exactly in its position and it is sorted by default.
+2 Take first element from unsorted array (key) and compare it with the last element of sorted array.
+3 'Key' holds first element of unsorted array, 'J' holds position of lastly sorted element.
+4 Compare key with each element in sorted array (from Position J to 0)
+5 At each iteration one element in unsorted array will be exactly in its position.
+6 At the end of Iteration, all elements are sorted
 
