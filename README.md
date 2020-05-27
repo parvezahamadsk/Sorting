@@ -17,7 +17,8 @@
      }
      
 ---
-### Insertion Sort ###
+
+### Insertion Sort
 
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
 
@@ -32,8 +33,7 @@ inserting it in appropriate location in the sorted array.
 * At the end of Iteration, all elements are sorted
 
 
-
-#### Stability ####
+#### Stability 
 Sort repeated elements in same order as they present in the input
 
 
