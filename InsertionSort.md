@@ -1,5 +1,5 @@
 
-### Markdown
+### Insertion Sort
 ```markdown
  public static int[] insertionSort(int[] arr) 
      {
